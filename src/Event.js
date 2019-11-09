@@ -26,15 +26,16 @@ class Event extends Component {
         <div className="time">{event.local_time}</div>
         <div className="date">{event.local_date}</div>
         <div className="title">{event.name}</div>
-        <div className="groupName">{event.group.name}</div>
-        <div className="attendanceCount">{event.yes_rsvp_count}</div>
+        
+        {event.group && event.group.name && <div className="group-name">{event.group.name}</div>}
+        <div className="attendance-count">{event.yes_rsvp_count}</div>
 
         <input id="details" type="button"
           className="details"
           onClick={() => this.handleDetailsButtonClicked()}
         />
         {this.state.showDetails &&
-          (<div className="detailsPanel">
+          (<div className="details-panel">
             <div className="address">{event.address_1}</div>
             <div className="description">{event.description}</div>
             <div className="link">{event.link}</div>

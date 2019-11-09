@@ -64,8 +64,8 @@ describe('<Event /> component', () => {
     expect(EventWrapper.find('.time')).toHaveLength(1);
     expect(EventWrapper.find('.date')).toHaveLength(1);
     expect(EventWrapper.find('.title')).toHaveLength(1);
-    expect(EventWrapper.find('.groupName')).toHaveLength(1);
-    expect(EventWrapper.find('.attendanceCount')).toHaveLength(1);
+    expect(EventWrapper.find('.group-name')).toHaveLength(1);
+    expect(EventWrapper.find('.attendance-count')).toHaveLength(1);
     // Details button and its panel
     expect(EventWrapper.find('.details')).toHaveLength(1);
 
@@ -75,7 +75,7 @@ describe('<Event /> component', () => {
 
     expect(EventWrapper.state().showDetails).toBe(false);
     // the following elements should not exist
-    expect(EventWrapper.find('.detailsPanel')).toHaveLength(0);
+    expect(EventWrapper.find('.details-panel')).toHaveLength(0);
     expect(EventWrapper.find('.address')).toHaveLength(0);
     expect(EventWrapper.find('.description')).toHaveLength(0);
     expect(EventWrapper.find('.link')).toHaveLength(0);
@@ -86,7 +86,7 @@ describe('<Event /> component', () => {
     // check if the hidden elements are now visible
     expect(EventWrapper.state().showDetails).toBe(true);
     // the following elements should exist
-    expect(EventWrapper.find('.detailsPanel')).toHaveLength(1);
+    expect(EventWrapper.find('.details-panel')).toHaveLength(1);
     expect(EventWrapper.find('.address')).toHaveLength(1);
     expect(EventWrapper.find('.description')).toHaveLength(1);
     expect(EventWrapper.find('.link')).toHaveLength(1);
@@ -99,7 +99,7 @@ describe('<Event /> component', () => {
     EventWrapper.find('#details').at(0).simulate('click');
     expect(EventWrapper.state().showDetails).toBe(false);
     // check if the hidden elements are not existing
-    expect(EventWrapper.find('.detailsPanel')).toHaveLength(0);
+    expect(EventWrapper.find('.details-panel')).toHaveLength(0);
     expect(EventWrapper.find('.address')).toHaveLength(0);
     expect(EventWrapper.find('.description')).toHaveLength(0);
     expect(EventWrapper.find('.link')).toHaveLength(0);
