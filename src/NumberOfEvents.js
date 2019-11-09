@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+const DEFAULT_NUMBER_OF_EVENTS = 32
 class NumberOfEvents  extends Component {
   
   constructor() {
@@ -8,7 +9,7 @@ class NumberOfEvents  extends Component {
 
     // init state
     this.state = {
-      numberOfEvents: 32
+      numberOfEvents: DEFAULT_NUMBER_OF_EVENTS
     }
   }
 
@@ -20,7 +21,7 @@ class NumberOfEvents  extends Component {
   render() {
     const { numberOfEvents } = this.state;
     if (!numberOfEvents) {
-      return (<></>);
+      numberOfEvents = DEFAULT_NUMBER_OF_EVENTS;
     }
     return (
       <div>
