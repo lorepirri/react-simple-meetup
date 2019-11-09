@@ -25,17 +25,17 @@ describe('show/hide an event details', () => {
     expect(detailsPanel).toBeNull();
   });
 
-  // test('User can expand an event to see its details', async () => {
-  //   await page.click('.Event .details');
+  test('User can expand an event to see its details', async () => {
+    await page.click('.Event .details');
 
-  //   const detailsPanel = await page.$('.Event .details-panel');
-  //   expect(detailsPanel).toBeDefined();
-  // });
+    const detailsPanel = await page.$('.Event .details-panel');
+    expect(detailsPanel).toBeDefined();
+  });
 
-  // test('User can expand an event to see its details', async () => {
-  //   await page.click('.Event .details');
+  test('User can expand an event to see its details', async () => {
+    await page.click('.Event .details');
 
-  //   const detailsPanel = await page.$('.Event .details-panel');
-  //   expect(detailsPanel).toBeNull();
-  // });
+    const detailsPanel = await page.$('.Event .details-panel');
+    expect(detailsPanel).toBeNull();
+  });
 });
