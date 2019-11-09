@@ -98,7 +98,11 @@ async function getSuggestions(query) {
 
 async function getEvents(lat, lon, page) {
   if (window.location.href.startsWith('http://localhost')) {
-    return mockEvents.events;
+    if (page) {
+      return mockEvents.events.slice(0, parseInt(page));
+    } else {
+      return mockEvents.events;
+    }
   }
   
   const token = await getAccessToken();
