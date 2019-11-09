@@ -20,7 +20,7 @@ class NumberOfEvents  extends Component {
   }
 
   render() {
-    const { numberOfEvents } = this.state;
+    let { numberOfEvents } = this.state;
     if (!numberOfEvents) {
       numberOfEvents = DEFAULT_NUMBER_OF_EVENTS;
     }
