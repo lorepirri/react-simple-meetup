@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-simple-meetup/static/css/main.f4f6c506.chunk.css",
-    "main.js": "/react-simple-meetup/static/js/main.ab7f4e72.chunk.js",
-    "main.js.map": "/react-simple-meetup/static/js/main.ab7f4e72.chunk.js.map",
+    "main.js": "/react-simple-meetup/static/js/main.37e206dd.chunk.js",
+    "main.js.map": "/react-simple-meetup/static/js/main.37e206dd.chunk.js.map",
     "runtime-main.js": "/react-simple-meetup/static/js/runtime-main.acc87f8c.js",
     "runtime-main.js.map": "/react-simple-meetup/static/js/runtime-main.acc87f8c.js.map",
     "static/js/2.1620e438.chunk.js": "/react-simple-meetup/static/js/2.1620e438.chunk.js",
     "static/js/2.1620e438.chunk.js.map": "/react-simple-meetup/static/js/2.1620e438.chunk.js.map",
     "index.html": "/react-simple-meetup/index.html",
-    "precache-manifest.8838de769b707dd4fd8962de575e1683.js": "/react-simple-meetup/precache-manifest.8838de769b707dd4fd8962de575e1683.js",
+    "precache-manifest.ab3428c478e2a86e8608eadeb34d1d7e.js": "/react-simple-meetup/precache-manifest.ab3428c478e2a86e8608eadeb34d1d7e.js",
     "service-worker.js": "/react-simple-meetup/service-worker.js",
     "static/css/main.f4f6c506.chunk.css.map": "/react-simple-meetup/static/css/main.f4f6c506.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.acc87f8c.js",
     "static/js/2.1620e438.chunk.js",
     "static/css/main.f4f6c506.chunk.css",
-    "static/js/main.ab7f4e72.chunk.js"
+    "static/js/main.37e206dd.chunk.js"
   ]
 }
