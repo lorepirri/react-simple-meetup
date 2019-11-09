@@ -34,7 +34,6 @@ input[type="text"], input[type="number"] {
 .CitySearch {
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 
 .suggestions {
@@ -42,9 +41,6 @@ input[type="text"], input[type="number"] {
   align-self: center;
   margin: 0;
   font-size: 14px;
-  position: absolute;
-  top: 38px;
-  z-index: 1;
 }
 
 .suggestions > li {
@@ -105,4 +101,8 @@ input[type="text"], input[type="number"] {
   width: 80px;
   margin: 20px 0 50px;
   text-align: right;
+}
+
+.Alert {
+  height: 30px;
 }
