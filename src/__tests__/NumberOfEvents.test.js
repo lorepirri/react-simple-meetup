@@ -6,7 +6,7 @@ describe('<NumberOfEvents /> component', () => {
 
   let NumberOfEventsWrapper;
   beforeAll(() => {
-    NumberOfEventsWrapper = shallow(<NumberOfEvents />);
+    NumberOfEventsWrapper = shallow(<NumberOfEvents updateEvents={() => {}}/>);
     NumberOfEventsWrapper.setState({
       numberOfEvents: 32
     });    
