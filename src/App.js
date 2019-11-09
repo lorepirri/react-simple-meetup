@@ -18,8 +18,6 @@ class App extends Component {
       page: null      
     };
   }  
-  
-
 
   componentDidMount() {
     this.updateEvents();
