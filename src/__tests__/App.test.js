@@ -54,4 +54,15 @@ describe('<App /> integration', () => {
     AppWrapper.setState({ events: [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }] });
     expect(AppWrapper.find('.Event')).toHaveLength(4);
   });
+
+  test('render correct specified number of events', () => {
+    AppWrapper = mount(<App />);
+    AppWrapper.instance().updateEvents = jest.fn();
+    AppWrapper.instance().forceUpdate();
+    const NumberOfEventsWrapper = AppWrapper.find(NumberOfEvents);
+    const eventObject = { target: { value: '2' }};
+    NumberOfEventsWrapper.instance().handleNumberOfEventsChanged(eventObject);
+    expect(AppWrapper.instance().updateEvents).toHaveBeenCalledTimes(1);
+    expect(AppWrapper.instance().updateEvents).toHaveBeenCalledWith(null, null, "2");
+  });
 });
