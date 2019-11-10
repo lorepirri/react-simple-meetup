@@ -1,3 +1,8 @@
+A serverless, progressive web application (PWA) with React using a test-drivendevelopment (TDD) technique. The application uses the Meetup API to fetch upcoming eventsfor a selected city.
+
+Frontend: React
+Tests (Unit, Integration, Acceptance, End-to-End): Jest, Enzyme
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
