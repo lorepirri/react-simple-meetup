@@ -33,7 +33,7 @@ async function getAccessToken() {
     const code = searchParams.get('code');
 
     if (!code) {
-      const CONSUMER_KEY = '';
+      const CONSUMER_KEY = '3beg9v70lqlfklkb475puaufeg';
       const CONSUMER_REDIRECT_URI = 'https://lorepirri.github.io/react-simple-meetup';
       
       // If we don't find any code, we need to redirect user to get it
