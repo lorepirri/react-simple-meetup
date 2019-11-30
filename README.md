@@ -3,6 +3,22 @@ A serverless, progressive web application (PWA) with React using a test-drivende
 Frontend: React
 Tests (Unit, Integration, Acceptance, End-to-End): Jest, Enzyme
 
+## Demo
+
+The React Simple Meetup application makes use of the Meetup API endpoints, which require member authentication for context. The method used to authenticate a user, is _OAuth_.
+
+_OAuth_ is an authorization protocol that allows API applications to securely act on a user's behalf. For more information on OAuth, please visit the [OAuth Community Site](http://www.oauth.net/).
+
+Unfortunately meetup.com offer [OAuth Consumers](https://secure.meetup.com/meetup_api/oauth_consumers/) only to _Pro_ members, offering a 30 days trial period.
+
+I wrote this app using the 30 days trial period, but now it is expired.
+
+You can enjoy a screencast of the app below, though :)
+
+<img src="https://raw.githubusercontent.com/lorepirri/react-simple-meetup/master/react-simple-meetup.gif" alt="Demo for React Simple Meetup" style="max-width:50%;"/>
+
+## Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
