@@ -12,6 +12,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.register();
 
-atatus.config('dec330d826d84901b9672d547248b169').install();
+// Atatus trial period expired
+// atatus.config('dec330d826d84901b9672d547248b169').install();
 
 // atatus.notify(new Error('Test Atatus Setup'));
