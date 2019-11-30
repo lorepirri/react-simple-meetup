@@ -1,7 +1,8 @@
 A serverless, progressive web application (PWA) with React using a test-drivendevelopment (TDD) technique. The application uses the Meetup API to fetch upcoming eventsfor a selected city.
 
-Frontend: React
-Tests (Unit, Integration, Acceptance, End-to-End): Jest, Enzyme
+Frontend: _React_
+
+Tests (Unit, Integration, Acceptance, End-to-End): _Jest, Enzyme_
 
 ## Demo
 
@@ -9,7 +10,7 @@ The React Simple Meetup application makes use of the Meetup API endpoints, which
 
 _OAuth_ is an authorization protocol that allows API applications to securely act on a user's behalf. For more information on OAuth, please visit the [OAuth Community Site](http://www.oauth.net/).
 
-Unfortunately meetup.com offer [OAuth Consumers](https://secure.meetup.com/meetup_api/oauth_consumers/) only to _Pro_ members, offering a 30 days trial period.
+Unfortunately meetup.com offers [OAuth Consumers](https://secure.meetup.com/meetup_api/oauth_consumers/) only to _Pro_ members, with a 30 days trial period.
 
 I wrote this app using the 30 days trial period, but now it is expired.
 
